@@ -34,7 +34,7 @@ Tests
 Execute this command to run tests:
 
 ```bash
-$ cd symfony-demo/
+$ cd respoms_nav/
 $ ./vendor/bin/simple-phpunit
 ```
 
