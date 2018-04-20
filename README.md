@@ -2,7 +2,7 @@ Respons_nav Application
 ========================
 
 The "Navigation Application" is a reference application created to show how
-to develop Symfony applications, with emphasis on the navigation component, following the recommended best practices.
+to develop navigation component leveraging on the svg html elements and the canvas html element.
 
 Requirements
 ------------
