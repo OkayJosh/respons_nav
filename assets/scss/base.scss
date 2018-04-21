@@ -1,0 +1,13 @@
+$width: 100px;
+$added: 20px;
+
+.nav {
+	width: $width;
+	padding: $added;
+	border: $added;
+	margin: $added;
+
+	.nav_added {
+	align: center;
+	}
+}
