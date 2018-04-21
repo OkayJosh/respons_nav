@@ -12,7 +12,7 @@ Encore
 
     // uncomment to define the assets of the project
      .addEntry('js/base', './assets/js/base.js')
-     .addStyleEntry('css/base', './assets/css/base.scss')
+     .addStyleEntry('css/base', './assets/scss/base.scss')
 
     // uncomment if you use Sass/SCSS files
     .enableSassLoader()
