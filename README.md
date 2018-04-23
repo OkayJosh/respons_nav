@@ -34,7 +34,7 @@ Tests
 Execute this command to run tests:
 
 ```bash
-$ cd respoms_nav/
+$ cd respons_nav/
 $ ./vendor/bin/simple-phpunit
 ```
 
