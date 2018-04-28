@@ -8,11 +8,22 @@
        		{% endblock %}
 	    </head>
 	    <body>
+	    	{% block header%}
+	    	<header class = "profile-box">
+	    		<div>
+	    			<img src='../build/image/me.jpg'>
+	    		</div>
+	    		
+	    	</header>
+	    	{% endblock %}
 
 	        {% block body %}
-	        	        <div class = "nav">
-	        	        <div class="nav nav_added">
-	        				<svg width="120" height="120" viewBox="0 0 120 120">
+	        	        <div class="nav">
+	        	        	<div class=" nav add">
+	        	        		
+	        	        	</div>
+	        	        <div class=" nav add">
+	        				<svg width="120" height="120" viewBox="0 0 120 120" class="add">
 
 	  							<defs>
 	    							<pattern id="Triangle" width="12" height="12" patternUnits="userSpaceOnUse">
@@ -22,9 +33,8 @@
 
 	  						<circle cx="60" cy="60" r="50" fill="url(#Triangle)"/>
 							</svg>
-	        			</div>
-	        			<div class="nav nav_added">
-	        	 			<svg width="240" height="30">
+
+	        	 			<svg width="240" height="30" class="">
 
 	  						<a href="https://github.com/okayjosh/" target="_blank">
 	    						<rect height="30" width="220" y="0" x="0" rx="15"/>
@@ -32,6 +42,9 @@
 							</a>
 							</svg>
 	        			</div>
+	        	<div class=" nav add">
+	        	        		
+	       		</div>
 
 	        </div>
 	        {% endblock %}
