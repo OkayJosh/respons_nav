@@ -14,6 +14,7 @@ Encore
      .addEntry('js/base', './assets/js/base.js')
      .addStyleEntry('css/base', './assets/scss/base.scss')
 
+
     // uncomment if you use Sass/SCSS files
     .enableSassLoader()
 
