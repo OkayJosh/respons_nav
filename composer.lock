@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b53524831dbe3628d113ccd96e6b60f3",
+    "content-hash": "ec1f919637f1df30e7c67b66bed30f3f",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -3593,6 +3593,54 @@
                 "validator"
             ],
             "time": "2018-02-22T12:30:04+00:00"
+        },
+        {
+            "name": "symfony/requirements-checker",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/requirements-checker.git",
+                "reference": "dd66b5ec68d2ad5f1b28631eb64a3d59a1a13d44"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/requirements-checker/zipball/dd66b5ec68d2ad5f1b28631eb64a3d59a1a13d44",
+                "reference": "dd66b5ec68d2ad5f1b28631eb64a3d59a1a13d44",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "bin": [
+                "bin/requirements-checker"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Requirements\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Check Symfony requirements and give recommendations",
+            "keywords": [
+                "configuration",
+                "distribution"
+            ],
+            "time": "2018-05-05T07:36:35+00:00"
         },
         {
             "name": "symfony/routing",

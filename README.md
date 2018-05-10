@@ -8,7 +8,10 @@ Requirements
 ------------
 
   * PHP 7.1.3 or higher;
-  * and the [usual Symfony application requirements][1].
+  * and the [usual Symfony application requirements][1] or 
+  * ```
+  		$ cd composer require symfony/requirements-checker
+  * ```
 
 How to run the application
 --------------------------
